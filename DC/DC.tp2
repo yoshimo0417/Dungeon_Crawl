@@ -21,7 +21,7 @@ ALWAYS
 
   // Only setup-Mod.tra needs to be reloaded
   ACTION_DEFINE_ARRAY O#reload BEGIN Setup-DC END
-  ACTION_DEFINE_ARRAY O#noconvert BEGIN setup-osx setup-unix setup-win32 END
+  ACTION_DEFINE_ARRAY O#noconvert BEGIN Install END
 
   // There is no "language" folder so the root of all languages in %MOD_FOLDER%
   LAF HANDLE_CHARSETS
@@ -41,7 +41,7 @@ LANGUAGE ~Russian~ ~Russian~ ~DC/Russian/Setup-DC.tra~
 LANGUAGE ~German (Translated by Gerri)~ ~German~ ~DC/German/Setup-DC.tra~
 LANGUAGE ~Italian (Translated by Ilot)~ ~Italian~ ~DC/Italian/Setup-DC.tra~
 LANGUAGE ~Polish (Translated by Aristo)~ ~Polish~ ~DC/Polish/Setup-DC.tra~
-LANGUAGE ~Chinese (Translated by Merzbau)~ ~Schinese~ ~DC/Schinese/Setup-%WEIDU_OS%.tra~
+LANGUAGE ~Chinese (Translated by Merzbau)~ ~Schinese~ ~DC/Schinese/Install.tra~
 LANGUAGE ~French (Translated by deratiseur)~ ~French~ ~DC/French/Setup-DC.tra~
 
 BEGIN @0
